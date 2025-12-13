@@ -85,3 +85,24 @@ section{
     flex-direction: row;
     justify-content: center;
 }
+footer{
+    background-color: #121251;
+    padding: 2rem;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: flex;
+}
+.up:hover{
+    box-shadow: 5px 5px 5px #0000b5;
+}
+.up{
+
+    border: 2px #000000;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #000000;
+    text-align: center;
+    color: #0101b8;
+}
+

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
+    <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -10,9 +10,9 @@
 <img class="PFoto" src="images/PlaceHolder.png" alt="PlaceHolder">
 </a>
 <section>
-
     <h2>Introductie</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Donec et sapien sit amet nulla commodo tristique at nec dolor. Etiam ac feugiat nulla, venenatis dignissim lectus.<br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+        Donec et sapien sit amet nulla commodo tristique at nec dolor. Etiam ac feugiat nulla, venenatis dignissim lectus.<br>
         Duis in ultrices tortor. Phasellus vitae erat diam. Duis quis velit id lacus luctus dignissim.<br>
         Morbi vitae ligula nunc. Sed non lectus ut magna pharetra bibendum sit amet quis risus.<br>
         Curabitur mollis tincidunt urna vitae laoreet. In nulla ex, rutrum ac risus at, blandit maximus ante.<br>
@@ -109,4 +109,30 @@
 </section>
 
 </body>
+<footer>
+    <table>
+        <tr>
+            <td>Lars Dreesen</td>
+            <td>Opdracht curriculum vitae</td>
+            <td><button  onclick="topFunction()" id="myBtn" class="up">Top</button></td>
+        </tr>
+    </table>
+</footer>
+<script>
+    let mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </html>
