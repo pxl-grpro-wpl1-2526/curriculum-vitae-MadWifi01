@@ -17,6 +17,10 @@ table{
         padding: 1rem;
     }
 }
+
+.tallen tr:nth-child(even){
+    background-color: #353535;
+}
 .Moedertaal{
     background-color: darkgreen;
 
