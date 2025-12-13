@@ -30,11 +30,16 @@ table{
 }
 body{
     color: white;
-    background-image: linear-gradient(to bottom, #1f0b9c, #000000,#000000 );
+    background-image: linear-gradient(to bottom, #0c0267, #000000,#000000 );
 }
 .PFoto{
     border-radius: 15px;
     margin: 3rem;
+    width: 10rem;
+    height: 12rem;
+}
+.PFoto:hover{
+    box-shadow: 5px 5px 5px #0000b5;
 }
 section{
     padding: 3rem;
