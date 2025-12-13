@@ -37,6 +37,7 @@ body{
     margin: 3rem;
     width: 10rem;
     height: 12rem;
+    border: 5px solid black;
 }
 .PFoto:hover{
     box-shadow: 5px 5px 5px #0000b5;
