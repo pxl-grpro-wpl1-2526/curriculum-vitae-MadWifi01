@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    td{
+        border: 1px solid white;
+        padding: 1rem;
+    }
+    th{
+        padding: 1rem;
+    }
+}
+.Moedertaal{
+    background-color: darkgreen;
+
+}
+.Gevorderd{
+    background-color: lightgreen;
+}
+.Basis{
+    background-color: yellow;
+    color: black;
+}
+body{
+    color: white;
+    background-image: linear-gradient(to bottom, #1f0b9c, #000000,#000000 );
+}
+.PFoto{
+    border-radius: 15px;
+    margin: 3rem;
+}
+section{
+    padding: 3rem;
+}
+.Werk{
+    background-image:linear-gradient(to right, #000000, #0101b8, #000000 ) ;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
