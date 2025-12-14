@@ -164,5 +164,6 @@ footer{
         background-size: cover;
         border: 5px solid black;
         justify-content: space-around;
+        text-align: center;
 
     }}
