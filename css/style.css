@@ -40,7 +40,7 @@ body{
     border-radius: 15px;
     margin: 3rem;
     width: 10rem;
-    height: 12rem;
+    height: auto;
     border: 5px solid black;
 }
 .PFoto:hover{
@@ -95,6 +95,7 @@ footer{
 }
 .up:hover{
     box-shadow: 5px 5px 5px #0000b5;
+    cursor: pointer;
 }
 .up{
 
@@ -104,5 +105,13 @@ footer{
     background-color: #000000;
     text-align: center;
     color: #0101b8;
+}
+.Introductie{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Introductie div{
+    padding: 1rem;
 }
 
