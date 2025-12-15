@@ -4,7 +4,7 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.tallen{
+.talen{
     border: 1px solid white;
     border-collapse: collapse;
     text-align: center;
@@ -19,7 +19,7 @@
     }
 }
 
-.tallen tr:nth-child(even){
+.talen tr:nth-child(even){
     background-color: #353535;
 }
 .Moedertaal{
